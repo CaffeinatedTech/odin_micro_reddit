@@ -4,5 +4,5 @@ class Post < ApplicationRecord
   has_many :comments
 
   validates :name, :url, presence: true
-  validates :user , presence: true
+  validates :user, presence: true
 end
